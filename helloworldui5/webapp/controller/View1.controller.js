@@ -12,7 +12,7 @@ function (Controller, MessageBox) {
 
         onPress: function () {
 
-            //debugger;
+            debugger;
             MessageBox.alert("You have been alerted!");
         }
     });
