@@ -1,0 +1,35 @@
+---
+general:
+  buildTool: "mta"
+service:
+  buildToolVersion: "MBTJ21N20"
+  stages:
+    Release:
+      cfCredentialsId: "deployonbtp"
+stages:
+  Build:
+    mavenExecuteStaticCodeChecks: false
+    source: helloworldclone
+    npmExecuteLint: false
+  Acceptance:
+    cloudFoundryDeploy: false
+    npmExecuteEndToEndTests: false
+  Malware Scan:
+    malwareExecuteScan: false
+  Release:
+    tmsExport: false
+    tmsUpload: false
+    cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
+    cfOrg: "574e1e10trial"
+    cfSpace: "dev"
+    deployType: "standard"
+    cloudFoundryDeploy: true
+  Additional Unit Tests:
+    npmExecuteScripts: false
+  Compliance:
+    sonarExecuteScan: false
+steps:
+  cloudFoundryDeploy:
+    mtaDeployParameters: "-f --version-rule ALL"
+  artifactPrepareVersion:
+    versioningType: "cloud_noTag"
