@@ -21,6 +21,7 @@
           "semanticObject": "semanticobjecthelloworld",
           "action": "show",
           "title": "{{flpTitle}}",
+          "icon":"sap-icon://action-settings",
           "signature": {
             "parameters": {},
             "additionalParameters": "allowed"
