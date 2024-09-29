@@ -1,0 +1,19 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.businesspartners.controller.Suppliers" displayBlock="true">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            	<Button type="Reject"
+						text="Reject"
+						press="onPress"
+						ariaDescribedBy="rejectButtonDescription genericButtonDescription">
+					<layoutData>
+						<FlexItemData growFactor="1" />
+					</layoutData>
+				</Button>
+            <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}">
+                <items>
+                    <StandardListItem type="Navigation" title="{CompanyName}" description="Description text: {WebAddress}" icon="sap-icon://picture" id="item0"/>
+                </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>

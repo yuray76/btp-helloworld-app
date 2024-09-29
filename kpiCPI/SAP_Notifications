@@ -1,0 +1,12 @@
+#clientSecret=<< Existing password/certificate removed on export >>
+#
+#Sun Sep 29 15:33:31 UTC 2024
+Type=HTTP
+clientId=sb-d2d78917-*********************-business\!b673
+HTML5.DynamicDestination=true
+Authentication=OAuth2ClientCredentials
+Name=SAP_Notifications
+tokenServiceURL=https\://1a35d411trial.authentication.us10.hana.ondemand.com/oauth/token
+ProxyType=Internet
+URL=https\://notifications.cfapps.us10-001.hana.ondemand.com
+tokenServiceURLType=Dedicated
