@@ -1,5 +1,9 @@
 # Створення схеми (iFlow) для відправки push-повідомлень у SAP Build Work Zone та SAP Mobile Start з допомогою системи SAP Integration Suite.
 
+Створено на основі таких матеріалів:
+- [SAP help - Developing Cloud Foundry Applications With Notifications](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/developing-cloud-foundry-applications-with-notifications)
+- [Блог - Sending Notifications from SAP BTP Applications to the SAP Fiori Launchpad](https://community.sap.com/t5/technology-blogs-by-sap/sending-notifications-from-sap-btp-applications-to-the-sap-fiori-launchpad/ba-p/13517316)
+
 Для роботи по даній документації необхідно вже мати налаштовані наступні параметри та системи:
 
 - Серівіс SAP Integration Suite встановлений в BTP.
