@@ -73,9 +73,9 @@
 | URL                        | Залежить від зони BTP. Для зони us10 це значення https://notifications.cfapps.us10-001.hana.ondemand.com                  |
 | Proxy Type       | Internet |
 | Authentication       | OAuth2ClientCredentials |
-| Client ID       | Значення з Work Zone рис.1 зн.3  |
-| Client Secret       | Значення з Work Zone рис.1 зн.4  |
-| Token Service URL       | Значення з Work Zone рис.1 зн.6  |
+| Client ID       | Значення з Work Zone рис.1.8 зн.3  |
+| Client Secret       | Значення з Work Zone рис.1.8 зн.4  |
+| Token Service URL       | Значення з Work Zone рис.1.8 зн.6  |
 
 ### 2.2. Створення Інстанса з типом Destination Service
 Для зв'язку сервіса CPI з Destinations необхідно створити Інстанс з ключем доступу.
